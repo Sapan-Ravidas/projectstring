@@ -1,0 +1,157 @@
+body {
+  font-family: sans-serif;
+  color: black;
+}
+
+a {
+  color: #e03a3c;
+}
+
+a:hover {
+  color: #e76668;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+}
+
+/*----------------------------------------------------
+header
+*/
+#header {
+  background: #5F251D;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 20px 0;
+}
+
+#header .header-scrolled {
+  padding: 12px;
+  -webkit-box-shadow: 0px 2px 15px rbs(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 15px rbs(0, 0, 0, 0.1);
+}
+
+#header .logo {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  list-style: 1;
+  font-weight: 700;
+  font-family: "Poppins" sans-serif;
+}
+
+#header .logo a {
+  color: orange;
+}
+
+@media (min-width: 1200px) {
+  #header {
+    padding: 20px 35px;
+  }
+  #header .logo {
+    font: 30px;
+  }
+}
+
+@media (min-width: 700px) {
+  #header {
+    margin: 0;
+    padding: 15px;
+  }
+  #header .logo {
+    font: 30px;
+  }
+}
+
+/* ----------------------------------------------------
+ Navigation
+ */
+.nav-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-menu ul li {
+  position: relative;
+  white-space: nowrap;
+  padding: 10px 0 10px 28px;
+}
+
+.nav-menu a {
+  display: block;
+  position: relative;
+  color: whitesmoke;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Poppins" sans-serif;
+}
+
+.nav-menu a:hover, .nav-menu .active, .nav-menu li:hover {
+  color: #e03a3c;
+}
+
+@media (max-width: 1366px) {
+  .nav-menu .drop-down .drop-down ul {
+    left: -90%;
+  }
+  .nav-menu .drop-down .drop-down:hover > ul {
+    left: -100%;
+  }
+  .nav-menu .drop-down .drop-down > a:after {
+    content: "\ea9d";
+  }
+}
+
+.get-started-btn {
+  margin-left: 25px;
+  background: #e03a3c;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.get-started-btn:hover {
+  background: white;
+  color: black;
+}
+
+@media (max-width: 992px) {
+  .get-started-btn {
+    margin: 0 48px 0 0;
+    padding: 6px 18px;
+  }
+}
+
+.hero-background {
+  background: url("../images/backgound.svg") top no-repeat;
+  opacity: 1;
+}
+
+.forms {
+  padding-bottom: 6%;
+  margin-top: 3%;
+  padding-top: 1%;
+  margin-bottom: 12%;
+  background-color: rgba(0, 0, 0, 0.8);
+  max-width: 660px;
+  color: white;
+}
+
+.information-margin {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=main.css.map */

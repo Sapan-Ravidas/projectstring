@@ -1,0 +1,79 @@
+.about .container {
+  position: relative;
+  z-index: 10;
+}
+
+.about .content {
+  padding: 30px 30px 30px 0;
+}
+
+.about .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.about .content p {
+  margin-bottom: 30px;
+}
+
+.about .content .about-btn {
+  padding: 8px 30px 9px 30px;
+  color: black;
+  border-radius: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 4px solid #5F251D;
+}
+
+.about .content .about-btn i {
+  font-size: 16px;
+  padding-left: 5px;
+}
+
+.about .content .about-btn:hover {
+  background: #5F251D;
+}
+
+.about .icon-boxes .icon-box {
+  margin-top: 30px;
+}
+
+.about .icon-boxes .icon-box i {
+  font-size: 40px;
+  color: #e03a3c;
+  margin-bottom: 10px;
+}
+
+.about .icon-boxes .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.about .icon-boxes .icon-box p {
+  font-size: 15px;
+  color: black;
+}
+
+@media (max-width: 1200px) {
+  .about .content {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=about.css.map */
